@@ -43,11 +43,14 @@ namespace Lesson_15_HW
                     optionThreeCount++;
                 }
                 
-                input = Console.ReadLine();
-                Console.WriteLine("Vote has been ended! Here's result!");
-                Console.WriteLine($"{optionOne}: {optionOneCount}");
-                Console.WriteLine($"{optionTwo}: {optionTwoCount}");
-                Console.WriteLine($"{optionThree}: {optionThreeCount}");
+                else 
+                {
+                    input = Console.ReadLine();
+                    Console.WriteLine("Vote has been ended! Here's result!");
+                    Console.WriteLine($"{optionOne}: {optionOneCount}");
+                    Console.WriteLine($"{optionTwo}: {optionTwoCount}");
+                    Console.WriteLine($"{optionThree}: {optionThreeCount}");
+                }
 
             }
         }
